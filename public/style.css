@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+
+body {
+  background-color: #afe96d;
+  background-image: linear-gradient(45deg, #fbab61 0%, #5a81ff 100%);
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  list-style: none !important;
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  text-decoration: none;
+  font-family: "robotto", cursive;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 3px solid rgb(150, 224, 226);
+}
+
+a {
+  padding-left: 70px !important;
+  text-decoration: none !important;
+  color: rgb(185, 206, 201) !important;
+}
+a:hover {
+  color: blue !important;
+}
+form {
+  padding-top: 50px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+i {
+  font-size: 100px;
+}
+.title {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cards {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 400px;
+}
+.image {
+  padding-top: 100px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
